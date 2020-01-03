@@ -16,9 +16,7 @@ module.exports = function () {
             .pipe(plumber())
             .pipe(sourcemaps.init())
             .pipe(scss())
-            .pipe(autoprefixer({
-                browsers: ['last 3 version']
-            }))
+            .pipe(autoprefixer())
             .pipe(sourcemaps.write())
             .pipe(rename('styles.min.css'))
             .pipe($.gulp.dest(stylesPATH.ouput))
