@@ -1,1 +1,1 @@
-Start template Gulp, Pug, Sass
+Стартовый шаблон верстки Pug + Sass/Scss + Gulp 4 - и много чего еще :)
